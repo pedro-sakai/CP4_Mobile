@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "CP4",
+    "slug": "cp4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "cp4",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1220"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1220"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": ["expo-router"]
+  }
+}
