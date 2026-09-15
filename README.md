@@ -99,7 +99,7 @@ const firebaseConfig = {
 
 ### 3. Executar o projeto
 ```bash
-npx start
+npm start
 ```
 Escaneie o QR code com o app **Expo Go** (Android/iOS) ou pressione `a`
 para abrir no emulador Android
