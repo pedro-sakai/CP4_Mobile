@@ -18,7 +18,7 @@ Este projeto dá continuidade ao app de autenticação desenvolvido no
 CheckPoint 4 (login, cadastro, logout, recuperação de senha, exclusão de
 conta e persistência de sessão via AsyncStorage, com Firebase
 Authentication), adicionando o **Cloud Firestore** como banco de dados
-para as operações de CRUD pedidas no CheckPoint 5.
+para as operações de CRUD.
 
 A lógica de autenticação continua centralizada em `SessaoContexto`, e a
 lógica dos registros de gastos foi organizada de forma equivalente em
@@ -138,7 +138,7 @@ CP5/
 ### 1. Instalar dependências
 ```bash
 cd CP5
-npm install
+npm i
 ```
 
 ### 2. Configurar o Firebase
@@ -157,13 +157,9 @@ const firebaseConfig = {
 };
 ```
 
-### 3. Publicar as regras do Firestore
-No Firebase Console, vá em **Firestore Database > Regras**, cole o
-conteúdo do arquivo `firestore.rules` deste projeto e publique.
-
 ## Instruções para execução
 ```bash
-npx expo start
+npx start
 ```
 Escaneie o QR code com o app **Expo Go** (Android/iOS) ou pressione `a`
 para abrir no emulador Android / `i` para o simulador iOS.
