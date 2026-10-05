@@ -159,7 +159,7 @@ const firebaseConfig = {
 
 ## Instruções para execução
 ```bash
-npx start
+npm start
 ```
 Escaneie o QR code com o app **Expo Go** (Android/iOS) ou pressione `a`
 para abrir no emulador Android / `i` para o simulador iOS.
